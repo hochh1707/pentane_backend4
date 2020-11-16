@@ -5,7 +5,7 @@ import json
 
 class classDbQueries(object):
     def __init__(self):
-        db = 1
+        db = 2
         if db == 1:
             self.mydb = mysql.connector.connect(
                     host = "localhost",
