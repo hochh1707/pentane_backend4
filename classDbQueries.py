@@ -16,10 +16,10 @@ class classDbQueries(object):
                     )
         elif db == 2:
             self.mydb = mysql.connector.connect(
-                    host = "mysql.Renthousemogul.com",
-                    user = "butane77mysql",
-                    password = "napkin88water",
-                    database = "butane050817"
+                    host = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+                    user = "pi5ogoqbj8sq566j",
+                    password = "qnkvxus0mbah43xr",
+                    database = "cyf93gqg1kqnwqd1"
                     )
 
     def getTestRecord(self):
